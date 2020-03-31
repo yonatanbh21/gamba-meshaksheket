@@ -12,7 +12,7 @@ client.on('message', async message => {
   // Voice only works in guilds, if the message does not come from a guild,
   // we ignore it
   if (!message.guild) return;
-  let fileName = 'https://www.youtube.com/watch?v=ZlAU_w7-Xp8';
+  let fileName = 'https://www.youtube.com/watch?v=D9ioyEvdggk';
 
   if (message.content.startsWith('/play')) {
     // Only try to join the sender's voice channel if they are in one themselves
