@@ -13,7 +13,6 @@ client.on('message', async message => {
   // Voice only works in guilds, if the message does not come from a guild,
   // we ignore it
   if (!message.guild) return;
-  console.log('before play');
   let fileName = 'https://www.youtube.com/watch?v=5OtbSxGnCS0';
   console.log('after play');
   if (message.content.startsWith('/play')) {
